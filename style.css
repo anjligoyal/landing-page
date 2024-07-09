@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #efc0c0;
+}
+
+#home {
+    background: url(./media/image/coffee_cappuccino_cup_162518_1600x900.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),url(./media/image/coffee_cappuccino_cup_162518_1600x900.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home h2 {
+    margin: 0;
+    font-size: 48px;
+}
+
+#home p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#home .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
